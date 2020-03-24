@@ -7,7 +7,7 @@ let arr = ["A-tisket a-tasket A green and yellow basket",
               
 
  const tamaño = (cadena, numero) => 
- cadena.length > numero ?  document.write(cadena.slice(0, numero)+"... <br>" ) : document.write(cadena);
+ cadena.length > numero ?  document.write(`${cadena.slice(0, numero)} ... <br>` ) : document.write(cadena);
 
 tamaño(arr[0], 8);
 tamaño(arr[1],11);
