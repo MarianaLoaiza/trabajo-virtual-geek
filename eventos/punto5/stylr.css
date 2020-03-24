@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, san-serif;
+    background-color: rgb(244, 247, 240);
+  }
+  
+  .teachers {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 90px;
+  }
+  
+  .teacher {
+    display: inline-block;
+    cursor: pointer;
+    padding: 20px;
+  }
+  
+  .teacher__img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .teacher--selected {
+     
+    
+    background-color: rgb(233, 40, 165);
+  }
